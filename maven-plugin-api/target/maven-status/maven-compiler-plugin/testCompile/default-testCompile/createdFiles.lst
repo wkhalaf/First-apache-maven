@@ -1,0 +1,3 @@
+org/apache/maven/plugin/descriptor/PluginDescriptorBuilderTest.class
+org/apache/maven/plugin/descriptor/MojoDescriptorTest.class
+org/apache/maven/plugin/lifecycle/LifecycleXpp3ReaderTest.class

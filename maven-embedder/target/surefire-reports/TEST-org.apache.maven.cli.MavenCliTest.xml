@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.apache.maven.cli.MavenCliTest" time="0.69" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/wael/apache-maven-3.9.8/maven-embedder/target/test-classes:/home/wael/apache-maven-3.9.8/maven-embedder/target/classes:/home/wael/apache-maven-3.9.8/maven-settings/target/maven-settings-3.9.8.jar:/home/wael/apache-maven-3.9.8/maven-settings-builder/target/maven-settings-builder-3.9.8.jar:/home/wael/apache-maven-3.9.8/maven-core/target/maven-core-3.9.8.jar:/home/wael/apache-maven-3.9.8/maven-repository-metadata/target/maven-repository-metadata-3.9.8.jar:/home/wael/apache-maven-3.9.8/maven-artifact/target/maven-artifact-3.9.8.jar:/home/wael/apache-maven-3.9.8/maven-resolver-provider/target/maven-resolver-provider-3.9.8.jar:/home/wael/.m2/repository/org/apache/maven/resolver/maven-resolver-impl/1.9.20/maven-resolver-impl-1.9.20.jar:/home/wael/.m2/repository/org/apache/maven/resolver/maven-resolver-named-locks/1.9.20/maven-resolver-named-locks-1.9.20.jar:/home/wael/.m2/repository/org/apache/maven/resolver/maven-resolver-spi/1.9.20/maven-resolver-spi-1.9.20.jar:/home/wael/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.9.0.M3/org.eclipse.sisu.inject-0.9.0.M3.jar:/home/wael/.m2/repository/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.jar:/home/wael/apache-maven-3.9.8/maven-plugin-api/target/maven-plugin-api-3.9.8.jar:/home/wael/apache-maven-3.9.8/maven-model/target/maven-model-3.9.8.jar:/home/wael/apache-maven-3.9.8/maven-model-builder/target/maven-model-builder-3.9.8.jar:/home/wael/apache-maven-3.9.8/maven-builder-support/target/maven-builder-support-3.9.8.jar:/home/wael/.m2/repository/org/apache/maven/resolver/maven-resolver-api/1.9.20/maven-resolver-api-1.9.20.jar:/home/wael/.m2/repository/org/apache/maven/resolver/maven-resolver-util/1.9.20/maven-resolver-util-1.9.20.jar:/home/wael/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.jar:/home/wael/.m2/repository/com/google/inject/guice/5.1.0/guice-5.1.0.jar:/home/wael/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/wael/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/home/wael/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/wael/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/wael/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/wael/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar:/home/wael/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.8.0/plexus-classworlds-2.8.0.jar:/home/wael/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.9.0.M3/org.eclipse.sisu.plexus-0.9.0.M3.jar:/home/wael/.m2/repository/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar:/home/wael/.m2/repository/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.jar:/home/wael/.m2/repository/org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0.jar:/home/wael/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.27/plexus-interpolation-1.27.jar:/home/wael/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/wael/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar:/home/wael/.m2/repository/ch/qos/logback/logback-classic/1.2.13/logback-classic-1.2.13.jar:/home/wael/.m2/repository/ch/qos/logback/logback-core/1.2.13/logback-core-1.2.13.jar:/home/wael/.m2/repository/commons-cli/commons-cli/1.8.0/commons-cli-1.8.0.jar:/home/wael/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/home/wael/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar:/home/wael/.m2/repository/net/bytebuddy/byte-buddy/1.12.19/byte-buddy-1.12.19.jar:/home/wael/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.19/byte-buddy-agent-1.12.19.jar:/home/wael/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/wael/.m2/repository/org/fusesource/jansi/jansi/2.4.1/jansi-2.4.1.jar:/home/wael/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/wael/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/wael/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/wael/apache-maven-3.9.8/maven-embedder/target/surefire/surefirebooter-20240813153133069_72.jar /home/wael/apache-maven-3.9.8/maven-embedder/target/surefire 2024-08-13T15-29-33_340-jvmRun1 surefire-20240813153133069_70tmp surefire_10-20240813153133069_71tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/wael/apache-maven-3.9.8/maven-embedder/target/test-classes:/home/wael/apache-maven-3.9.8/maven-embedder/target/classes:/home/wael/apache-maven-3.9.8/maven-settings/target/maven-settings-3.9.8.jar:/home/wael/apache-maven-3.9.8/maven-settings-builder/target/maven-settings-builder-3.9.8.jar:/home/wael/apache-maven-3.9.8/maven-core/target/maven-core-3.9.8.jar:/home/wael/apache-maven-3.9.8/maven-repository-metadata/target/maven-repository-metadata-3.9.8.jar:/home/wael/apache-maven-3.9.8/maven-artifact/target/maven-artifact-3.9.8.jar:/home/wael/apache-maven-3.9.8/maven-resolver-provider/target/maven-resolver-provider-3.9.8.jar:/home/wael/.m2/repository/org/apache/maven/resolver/maven-resolver-impl/1.9.20/maven-resolver-impl-1.9.20.jar:/home/wael/.m2/repository/org/apache/maven/resolver/maven-resolver-named-locks/1.9.20/maven-resolver-named-locks-1.9.20.jar:/home/wael/.m2/repository/org/apache/maven/resolver/maven-resolver-spi/1.9.20/maven-resolver-spi-1.9.20.jar:/home/wael/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.9.0.M3/org.eclipse.sisu.inject-0.9.0.M3.jar:/home/wael/.m2/repository/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.jar:/home/wael/apache-maven-3.9.8/maven-plugin-api/target/maven-plugin-api-3.9.8.jar:/home/wael/apache-maven-3.9.8/maven-model/target/maven-model-3.9.8.jar:/home/wael/apache-maven-3.9.8/maven-model-builder/target/maven-model-builder-3.9.8.jar:/home/wael/apache-maven-3.9.8/maven-builder-support/target/maven-builder-support-3.9.8.jar:/home/wael/.m2/repository/org/apache/maven/resolver/maven-resolver-api/1.9.20/maven-resolver-api-1.9.20.jar:/home/wael/.m2/repository/org/apache/maven/resolver/maven-resolver-util/1.9.20/maven-resolver-util-1.9.20.jar:/home/wael/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.jar:/home/wael/.m2/repository/com/google/inject/guice/5.1.0/guice-5.1.0.jar:/home/wael/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/wael/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/home/wael/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/wael/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/wael/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/wael/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar:/home/wael/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.8.0/plexus-classworlds-2.8.0.jar:/home/wael/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.9.0.M3/org.eclipse.sisu.plexus-0.9.0.M3.jar:/home/wael/.m2/repository/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar:/home/wael/.m2/repository/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.jar:/home/wael/.m2/repository/org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0.jar:/home/wael/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.27/plexus-interpolation-1.27.jar:/home/wael/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/wael/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar:/home/wael/.m2/repository/ch/qos/logback/logback-classic/1.2.13/logback-classic-1.2.13.jar:/home/wael/.m2/repository/ch/qos/logback/logback-core/1.2.13/logback-core-1.2.13.jar:/home/wael/.m2/repository/commons-cli/commons-cli/1.8.0/commons-cli-1.8.0.jar:/home/wael/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/home/wael/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar:/home/wael/.m2/repository/net/bytebuddy/byte-buddy/1.12.19/byte-buddy-1.12.19.jar:/home/wael/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.19/byte-buddy-agent-1.12.19.jar:/home/wael/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/wael/.m2/repository/org/fusesource/jansi/jansi/2.4.1/jansi-2.4.1.jar:/home/wael/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/wael/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/wael/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/wael"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/wael/apache-maven-3.9.8/maven-embedder"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/wael/apache-maven-3.9.8/maven-embedder/target/surefire/surefirebooter-20240813153133069_72.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+7-Ubuntu-1ubuntu220.04"/>
+    <property name="user.name" value="wael"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.0-117-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/wael/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-17"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="/home/wael/apache-maven-3.9.8/maven-embedder"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="17.0.12+7-Ubuntu-1ubuntu220.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testMVNConfigurationThreadCanBeOverwrittenViaCommandLine" classname="org.apache.maven.cli.MavenCliTest" time="0.008"/>
+  <testcase name="testStyleColors" classname="org.apache.maven.cli.MavenCliTest" time="0.02">
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/wael/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/wael/.m2/repository/ch/qos/logback/logback-classic/1.2.13/logback-classic-1.2.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/wael/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/wael/.m2/repository/ch/qos/logback/logback-classic/1.2.13/logback-classic-1.2.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/wael/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/wael/.m2/repository/ch/qos/logback/logback-classic/1.2.13/logback-classic-1.2.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/wael/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/wael/.m2/repository/ch/qos/logback/logback-classic/1.2.13/logback-classic-1.2.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/wael/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/wael/.m2/repository/ch/qos/logback/logback-classic/1.2.13/logback-classic-1.2.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+]]></system-err>
+  </testcase>
+  <testcase name="testMVNConfigurationDefinedPropertiesCanBeOverwrittenViaCommandLine" classname="org.apache.maven.cli.MavenCliTest" time="0.001"/>
+  <testcase name="testToolchainsBuildingEvents" classname="org.apache.maven.cli.MavenCliTest" time="0.635">
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/wael/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/wael/.m2/repository/ch/qos/logback/logback-classic/1.2.13/logback-classic-1.2.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+]]></system-err>
+  </testcase>
+  <testcase name="testMavenConfigInvalid" classname="org.apache.maven.cli.MavenCliTest" time="0.008">
+    <system-out><![CDATA[
+usage: mvn [options] [<goal(s)>] [<phase(s)>]
+
+Options:
+ -am,--also-make                         If project list is specified,
+                                         also build projects required by
+                                         the list
+ -amd,--also-make-dependents             If project list is specified,
+                                         also build projects that depend
+                                         on projects on the list
+ -B,--batch-mode                         Run in non-interactive (batch)
+                                         mode (disables output color)
+ -b,--builder <arg>                      The id of the build strategy to
+                                         use
+ -C,--strict-checksums                   Fail the build if checksums don't
+                                         match
+ -c,--lax-checksums                      Warn if checksums don't match
+    --color <arg>                        Defines the color mode of the
+                                         output. Supported are 'auto',
+                                         'always', 'never'.
+ -cpu,--check-plugin-updates             Ineffective, only kept for
+                                         backward compatibility
+ -D,--define <arg>                       Define a user property
+ -e,--errors                             Produce execution error messages
+ -emp,--encrypt-master-password <arg>    Encrypt master security password
+ -ep,--encrypt-password <arg>            Encrypt server password
+ -f,--file <arg>                         Force the use of an alternate POM
+                                         file (or directory with pom.xml)
+ -fae,--fail-at-end                      Only fail the build afterwards;
+                                         allow all non-impacted builds to
+                                         continue
+ -ff,--fail-fast                         Stop at first failure in
+                                         reactorized builds
+ -fn,--fail-never                        NEVER fail the build, regardless
+                                         of project result
+ -gs,--global-settings <arg>             Alternate path for the global
+                                         settings file
+ -gt,--global-toolchains <arg>           Alternate path for the global
+                                         toolchains file
+ -h,--help                               Display help information
+ -itr,--ignore-transitive-repositories   If set, Maven will ignore remote
+                                         repositories introduced by
+                                         transitive dependencies.
+ -l,--log-file <arg>                     Log file where all build output
+                                         will go (disables output color)
+ -llr,--legacy-local-repository          UNSUPPORTED: Use of this option
+                                         will make Maven invocation fail.
+ -N,--non-recursive                      Do not recurse into sub-projects
+ -npr,--no-plugin-registry               Ineffective, only kept for
+                                         backward compatibility
+ -npu,--no-plugin-updates                Ineffective, only kept for
+                                         backward compatibility
+ -nsu,--no-snapshot-updates              Suppress SNAPSHOT updates
+ -ntp,--no-transfer-progress             Do not display transfer progress
+                                         when downloading or uploading
+ -o,--offline                            Work offline
+ -P,--activate-profiles <arg>            Comma-delimited list of profiles
+                                         to activate
+ -pl,--projects <arg>                    Comma-delimited list of specified
+                                         reactor projects to build instead
+                                         of all projects. A project can be
+                                         specified by [groupId]:artifactId
+                                         or by its relative path
+ -q,--quiet                              Quiet output - only show errors
+ -rf,--resume-from <arg>                 Resume reactor from specified
+                                         project
+ -s,--settings <arg>                     Alternate path for the user
+                                         settings file
+ -t,--toolchains <arg>                   Alternate path for the user
+                                         toolchains file
+ -T,--threads <arg>                      Thread count, for instance 4
+                                         (int) or 2C/2.5C (int/float)
+                                         where C is core multiplied
+ -U,--update-snapshots                   Forces a check for missing
+                                         releases and updated snapshots on
+                                         remote repositories
+ -up,--update-plugins                    Ineffective, only kept for
+                                         backward compatibility
+ -v,--version                            Display version information
+ -V,--show-version                       Display version information
+                                         WITHOUT stopping build
+ -X,--debug                              Produce execution debug output
+
+]]></system-out>
+    <system-err><![CDATA[Unable to parse maven.config file options: Unrecognized maven.config file entries: [deploy]
+]]></system-err>
+  </testcase>
+  <testcase name="testVersionStringWithoutAnsi" classname="org.apache.maven.cli.MavenCliTest" time="0.0"/>
+  <testcase name="testPropertiesInterpolation" classname="org.apache.maven.cli.MavenCliTest" time="0.002"/>
+  <testcase name="testMVNConfigurationCLIRepeatedPropertiesLastWins" classname="org.apache.maven.cli.MavenCliTest" time="0.001"/>
+  <testcase name="testMVNConfigurationFunkyArguments" classname="org.apache.maven.cli.MavenCliTest" time="0.003"/>
+  <testcase name="testCalculateDegreeOfConcurrency" classname="org.apache.maven.cli.MavenCliTest" time="0.001"/>
+  <testcase name="testMavenConfig" classname="org.apache.maven.cli.MavenCliTest" time="0.001"/>
+</testsuite>

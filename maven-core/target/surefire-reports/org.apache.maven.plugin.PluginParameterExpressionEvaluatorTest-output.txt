@@ -1,0 +1,5 @@
+Result: {group:artifact=group:artifact:jar:1:compile}
+Result: my-plugin
+Result: [group:artifact:jar:1:compile]
+Result: Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'null', role hint: 'org.myco.plugins:my-plugin:1:null'
+---

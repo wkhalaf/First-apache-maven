@@ -1,0 +1,3 @@
+/home/wael/apache-maven-3.9.8/maven-plugin-api/src/test/java/org/apache/maven/plugin/descriptor/MojoDescriptorTest.java
+/home/wael/apache-maven-3.9.8/maven-plugin-api/src/test/java/org/apache/maven/plugin/descriptor/PluginDescriptorBuilderTest.java
+/home/wael/apache-maven-3.9.8/maven-plugin-api/src/test/java/org/apache/maven/plugin/lifecycle/LifecycleXpp3ReaderTest.java

@@ -1,0 +1,6 @@
+/home/wael/apache-maven-3.9.8/maven-builder-support/src/test/java/org/apache/maven/building/DefaultProblemCollectorTest.java
+/home/wael/apache-maven-3.9.8/maven-builder-support/src/test/java/org/apache/maven/building/DefaultProblemTest.java
+/home/wael/apache-maven-3.9.8/maven-builder-support/src/test/java/org/apache/maven/building/FileSourceTest.java
+/home/wael/apache-maven-3.9.8/maven-builder-support/src/test/java/org/apache/maven/building/ProblemCollectorFactoryTest.java
+/home/wael/apache-maven-3.9.8/maven-builder-support/src/test/java/org/apache/maven/building/StringSourceTest.java
+/home/wael/apache-maven-3.9.8/maven-builder-support/src/test/java/org/apache/maven/building/UrlSourceTest.java

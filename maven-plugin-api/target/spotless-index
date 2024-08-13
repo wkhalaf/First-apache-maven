@@ -1,0 +1,24 @@
+ZxlDHnpDTwSHGsrzhbUB3cbg4WGHSGrcsM5TPjBKr30=
+pom.xml 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/monitor/logging/DefaultLog.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/AbstractMojo.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/AbstractMojoExecutionException.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/ContextEnabled.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/Mojo.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/MojoExecutionException.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/MojoFailureException.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/MojoNotFoundException.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/descriptor/DuplicateMojoDescriptorException.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/descriptor/DuplicateParameterException.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/descriptor/InvalidParameterException.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/descriptor/InvalidPluginDescriptorException.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/descriptor/MojoDescriptor.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/descriptor/Parameter.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/descriptor/PluginDescriptor.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/descriptor/PluginDescriptorBuilder.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/descriptor/Requirement.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/logging/Log.java 2024-06-13T08:21:46Z
+src/main/java/org/apache/maven/plugin/logging/SystemStreamLog.java 2024-06-13T08:21:46Z
+src/test/java/org/apache/maven/plugin/descriptor/MojoDescriptorTest.java 2024-06-13T08:21:46Z
+src/test/java/org/apache/maven/plugin/descriptor/PluginDescriptorBuilderTest.java 2024-06-13T08:21:46Z
+src/test/java/org/apache/maven/plugin/lifecycle/LifecycleXpp3ReaderTest.java 2024-06-13T08:21:46Z

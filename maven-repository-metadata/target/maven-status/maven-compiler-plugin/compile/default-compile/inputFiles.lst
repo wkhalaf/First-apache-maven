@@ -1,0 +1,7 @@
+/home/wael/apache-maven-3.9.8/maven-repository-metadata/target/generated-sources/modello/org/apache/maven/artifact/repository/metadata/Metadata.java
+/home/wael/apache-maven-3.9.8/maven-repository-metadata/target/generated-sources/modello/org/apache/maven/artifact/repository/metadata/Plugin.java
+/home/wael/apache-maven-3.9.8/maven-repository-metadata/target/generated-sources/modello/org/apache/maven/artifact/repository/metadata/Snapshot.java
+/home/wael/apache-maven-3.9.8/maven-repository-metadata/target/generated-sources/modello/org/apache/maven/artifact/repository/metadata/SnapshotVersion.java
+/home/wael/apache-maven-3.9.8/maven-repository-metadata/target/generated-sources/modello/org/apache/maven/artifact/repository/metadata/Versioning.java
+/home/wael/apache-maven-3.9.8/maven-repository-metadata/target/generated-sources/modello/org/apache/maven/artifact/repository/metadata/io/xpp3/MetadataXpp3Reader.java
+/home/wael/apache-maven-3.9.8/maven-repository-metadata/target/generated-sources/modello/org/apache/maven/artifact/repository/metadata/io/xpp3/MetadataXpp3Writer.java

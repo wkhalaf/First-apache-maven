@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.maven.project.PomConstructionTest
+-------------------------------------------------------------------------------
+Tests run: 125, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.058 s -- in org.apache.maven.project.PomConstructionTest

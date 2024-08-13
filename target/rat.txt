@@ -1,0 +1,42 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2024-08-13T15:28:55+03:00
+
+Notes: 3
+Binaries: 0
+Archives: 0
+Standards: 13
+
+Apache Licensed: 13
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    .github/workflows/maven.yml
+  AL    .github/pull_request_template.md
+  AL    doap_Maven.rdf
+  AL    deploySite.sh
+  AL    CONTRIBUTING.md
+  AL    Jenkinsfile
+  AL    src/site/site.xml
+  AL    src/site/xdoc/index.xml
+  AL    src/site/svgo.config.mjs
+  N     DEPENDENCIES
+  N     LICENSE
+  AL    .git-blame-ignore-revs
+  AL    prepare-svg.sh
+  N     NOTICE
+  AL    pom.xml
+  AL    README.md
+ 
+*****************************************************

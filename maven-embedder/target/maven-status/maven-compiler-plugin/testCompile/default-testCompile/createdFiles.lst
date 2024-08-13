@@ -1,0 +1,14 @@
+org/apache/maven/cli/event/ExecutionEventLoggerTest.class
+org/apache/maven/cli/CLIManagerTest.class
+org/apache/maven/cli/MavenCliTest.class
+org/apache/maven/cli/MavenCliTest$1.class
+org/apache/maven/cli/CLIManagerDocumentationTest$OptionComparator.class
+org/apache/maven/cli/transfer/FileSizeFormatTest.class
+org/apache/maven/cli/CLIManagerDocumentationTest.class
+org/apache/maven/cli/MavenCliTest$ConcurrencyCalculator.class
+org/apache/maven/cli/CLIReportingUtilsTest.class
+org/apache/maven/cli/transfer/SimplexTransferListenerTest$1.class
+org/apache/maven/cli/CLIManagerDocumentationTest$CLIManagerExtension.class
+org/apache/maven/cli/CLIManagerDocumentationTest$1.class
+org/apache/maven/cli/transfer/SimplexTransferListenerTest.class
+org/apache/maven/cli/CleanArgumentTest.class

@@ -1,0 +1,9 @@
+/home/wael/apache-maven-3.9.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/AbstractRepositoryTestCase.java
+/home/wael/apache-maven-3.9.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java
+/home/wael/apache-maven-3.9.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultModelResolverTest.java
+/home/wael/apache-maven-3.9.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultVersionResolverTest.java
+/home/wael/apache-maven-3.9.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/MavenRepositorySystemUtilsTest.java
+/home/wael/apache-maven-3.9.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/RemoteSnapshotMetadataTest.java
+/home/wael/apache-maven-3.9.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/RepositorySystemTest.java
+/home/wael/apache-maven-3.9.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/util/ConsoleRepositoryListener.java
+/home/wael/apache-maven-3.9.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/util/ConsoleTransferListener.java

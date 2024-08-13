@@ -1,0 +1,8 @@
+/home/wael/apache-maven-3.9.8/maven-embedder/src/test/java/org/apache/maven/cli/CLIManagerDocumentationTest.java
+/home/wael/apache-maven-3.9.8/maven-embedder/src/test/java/org/apache/maven/cli/CLIManagerTest.java
+/home/wael/apache-maven-3.9.8/maven-embedder/src/test/java/org/apache/maven/cli/CLIReportingUtilsTest.java
+/home/wael/apache-maven-3.9.8/maven-embedder/src/test/java/org/apache/maven/cli/CleanArgumentTest.java
+/home/wael/apache-maven-3.9.8/maven-embedder/src/test/java/org/apache/maven/cli/MavenCliTest.java
+/home/wael/apache-maven-3.9.8/maven-embedder/src/test/java/org/apache/maven/cli/event/ExecutionEventLoggerTest.java
+/home/wael/apache-maven-3.9.8/maven-embedder/src/test/java/org/apache/maven/cli/transfer/FileSizeFormatTest.java
+/home/wael/apache-maven-3.9.8/maven-embedder/src/test/java/org/apache/maven/cli/transfer/SimplexTransferListenerTest.java

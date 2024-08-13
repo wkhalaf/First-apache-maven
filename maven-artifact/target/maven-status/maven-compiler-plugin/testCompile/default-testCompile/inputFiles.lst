@@ -1,0 +1,7 @@
+/home/wael/apache-maven-3.9.8/maven-artifact/src/test/java/org/apache/maven/artifact/ArtifactUtilsTest.java
+/home/wael/apache-maven-3.9.8/maven-artifact/src/test/java/org/apache/maven/artifact/DefaultArtifactTest.java
+/home/wael/apache-maven-3.9.8/maven-artifact/src/test/java/org/apache/maven/artifact/handler/ArtifactHandlerMock.java
+/home/wael/apache-maven-3.9.8/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionIT.java
+/home/wael/apache-maven-3.9.8/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+/home/wael/apache-maven-3.9.8/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/DefaultArtifactVersionTest.java
+/home/wael/apache-maven-3.9.8/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/VersionRangeTest.java
